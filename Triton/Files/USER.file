@@ -1,0 +1,3 @@
+<FIELD>"UserID"   <TYPE>"STRING" <WIDTH>"16" <PROMPT>"User ID:"  <HELP>"Enter your user ID"
+<FIELD>"UserName" <TYPE>"STRING" <WIDTH>"32" <PROMPT>"Name:"     <HELP>"Enter your name"
+<FIELD>"Password" <TYPE>"SECURE" <WIDTH>"16" <PROMPT>"Password:" <HELP>"Enter your password"

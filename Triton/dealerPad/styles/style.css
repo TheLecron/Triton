@@ -1,0 +1,84 @@
+html {
+    height: 1280px;
+    width: 800px;
+    
+    background-image: url("../images/dealerPadAssets/background-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+
+.menuBar {
+    background-color: gray;
+    text-align: center;
+    width: 785px;
+    height: 80px;
+    font-size: 40px;
+}
+
+#payTableName1 , #payTableName2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 4px;
+}
+
+.payTable1 {
+    background-color: cadetblue;
+    width: 785px;
+    height: 450px;
+    margin: 20px 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.payTable2 {
+    background-color: cadetblue;
+    width: 785px;
+    height: 450px;
+    margin: 20px 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#hand1, #hand2, #hand3, #hand4, #hand5, #hand6 {
+    display: block;
+    background-color: #afafaf;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 20px 200px;
+    margin: 10px 120px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#denom1, #denom2, #denom3, #denom4, #denom5, #denom6 {
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#denom1, #denom4 {
+    /* Add padding for the first denom buttons */
+    margin-left: 70px;
+}
+
+#lockbets {
+    border-radius: 0.5em;
+    background: red;
+    border: 6px solid black;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-size-adjust: 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+
+    position: absolute;
+    top: 1120px;
+    left: 60px;
+  }
